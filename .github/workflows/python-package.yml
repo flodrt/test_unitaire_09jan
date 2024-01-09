@@ -1,6 +1,8 @@
+# les fichier .yml sont des fichier de configuration tel que xml 
+
 name: Push Event Workflow
 
-on: push 
+on: push                           # s'active lorsque l'on push sur la main
 
 jobs:
   unit-testing:
@@ -16,5 +18,5 @@ jobs:
         python-version: '3.10'
 
     - name: Run Python unit tests
-      run: python3 -m unittest test_calcul_unittest.py
+      run: python3 -m unittest test_calcul_unittest.py  #l'action qu'il execute sur la main a chaque push
 
