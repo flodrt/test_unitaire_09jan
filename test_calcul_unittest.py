@@ -37,7 +37,7 @@ class TestCalcul(unittest.TestCase):
         resultat = self.calc.diviser(9, 3)
         # Vérifier si le résultat est égal à 3
         self.assertEqual(resultat, 3)
-    # Test de division par zéro##
+    # Test de division par zéro###
         
         
 
