@@ -12,4 +12,4 @@ class Calcul:
         if b != 0:
             return a / b
         else:
-            return "Division par zéro impossible"
+            raise ZeroDivisionError("Division par zéro impossible") 
