@@ -15,5 +15,10 @@ class TestCalcul(unittest.TestCase):
         #test 
         self.assertEqual(resultat,8,"commentaire spéciale")
 
+    def test_additionner(self):
+        resultat = self.calc.additionner(2,5)
+        #test 
+        self.assertEqual(resultat,7,"commentaire spéciale")
+
     
 
