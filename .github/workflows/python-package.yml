@@ -20,7 +20,5 @@ jobs:
     - name: Run Python unit tests et pytest 
       run: python3 -m unittest test_calcul_unittest.py  #l'action qu'il execute sur la main a chaque push
 
-    - name: Run Pytest
-      run: |
-        pytest
+   
       
